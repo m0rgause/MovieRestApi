@@ -1,15 +1,23 @@
 {
-  "name": "scrape",
+  "name": "movierestapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unofficial Rest API from melongmovie.com",
+  "repository": {
+    "url": "https://github.com/kiki-af/MovieRestApi"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js MODE=PRODUCTION",
     "dev": "nodemon index.js MODE=DEVELOPMENT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "movies",
+    "series",
+    "netflix",
+    "api"
+  ],
+  "author": "kiki-af",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
